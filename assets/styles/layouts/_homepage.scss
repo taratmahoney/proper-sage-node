@@ -1,0 +1,193 @@
+.featured-homepage-image{
+display: none;
+@media #{$large-up}{
+  display:block;
+  height:100%;
+  width: 100%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-position-x: top; 
+  background-position-y: right; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  }
+}
+
+.large-image-container{
+  height: auto;
+  @media #{$medium-up}{
+    height:500px;
+  }
+}
+
+.picture-gradient{
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.22),rgba(0, 0, 0, 0.67));
+    z-index: 2;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+  }
+
+.tagline{
+  color: $yellow;
+   font-family: 'Droid Serif', serif;
+}
+
+
+button{
+  background-color: $pink;
+  color: white;
+  text-transform: uppercase;
+  font-family: $heading-font-family;
+  webkit-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
+  padding: 3%;
+  font-weight: 700;
+  font-size: 20px;
+
+  &:hover, &:focus{
+    background-color: darken($pink, 15%);
+  }
+}
+
+.button-section{
+padding-left: 14%;
+position: relative;
+z-index: 3;
+padding-top:8%;
+  button{
+    display: block;
+    width: 290px;
+  }
+
+}
+
+.mission{
+  position: relative;
+  background: url('/wp-content/uploads/2016/10/CRAYONS.jpeg') no-repeat center center scroll;
+  height:100%;
+  width: 100%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-position-x: top; 
+  background-position-y: center; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  
+  @media #{$large-up}{
+   position: relative;
+  background: url('/wp-content/uploads/2016/10/CRAYONS.jpeg') no-repeat center right scroll;
+  height:100%;
+  width: 100%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-position-x: top; 
+  background-position-y: right; 
+  -webkit-background-size: contain; 
+  -moz-background-size: contain; 
+  -o-background-size: contain; 
+  background-size: contain;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  }
+  }
+
+.mission-statement{
+  width: 100%;
+  padding: 5%;
+  background: rgba(255, 255, 255, 0.84);
+@media #{$large-up}{
+  width:40%;
+  background: white;
+  padding: 5%;
+  }
+
+  h2{
+    font-size: 3em;
+  }
+
+  p{
+    font-size: 1.75em;
+  }
+}
+
+.mission-statement .skew:before{
+  @media #{$large-up}{
+     content: '';
+    position: absolute;
+    left: -178px;
+    bottom: 0;
+    overflow: visible;
+    width: 100%;
+    height: 900px;
+    background: #fff;
+    z-index: -1;
+    -webkit-transform: skewY(-12deg);
+    transform: skewY(66deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: initial;
+  }
+}
+
+.latest-news{
+  background-color: $eggshell;
+  overflow: hidden;
+}
+
+.small-image-container{
+  height: 150px;
+}
+
+.get-to-know-us{
+  overflow: hidden;
+  p{
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+}
+
+.stay-in-touch{
+  background-color: $yellow;
+  overflow: hidden;
+p{
+  i{
+    font-size:40px;
+    padding: 2%;
+  }
+}
+}
+
+.mobile-homepage-panel{
+  display: block;
+  @media #{$large-up}{
+    display:none;
+  }
+}
+.mobile-buttons{
+  text-align: center;
+  button{
+    width: auto;
+    display: inline;
+    font-size: 13px;
+  }
+}
+
+.home-featured-image-mobile{
+  height: 300px;
+
+}
+
+.mobile-tagline{
+  color: $charcoal;
+}

@@ -1,0 +1,56 @@
+h1, h2, h3, h4, h5{
+  font-family: $heading-font-family;
+  color: $charcoal;
+}
+
+h1, h2, h3{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h1{
+font-size:2em;
+}
+
+h2{
+font-size: 1.75em;
+}
+
+h3{
+font-size: 1.5em;
+}
+
+h4{
+  font-weight: 300;
+  font-size: 2em;
+  font-family: $body-font-family;
+}
+
+h5{
+  font-weight: 300;
+  font-size: 2em;
+  font-family: $heading-font-family;
+}
+
+p, li{
+  font-family: $body-font-family;
+}
+
+p, li{
+  color: $charcoal;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+a{
+  color: $blue;
+}
+
+.preview-title{
+  a{
+    color: $charcoal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $heading-font-family;
+  }
+}

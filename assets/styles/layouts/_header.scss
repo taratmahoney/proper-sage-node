@@ -1,0 +1,141 @@
+/*! responsive-nav.js 1.0.39 by @viljamis */
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+
+   @media #{$medium-up}{
+      display: inline;
+    }
+
+}
+
+.nav-collapse li {
+  width: 100%;
+  display: block;
+  font-family: $heading-font-family;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+
+  @media #{$medium-up}{
+      display: inline;
+      
+  }
+
+  
+  
+    a{
+      @media #{$medium-up}{
+    padding: 46px 20px 0px 0px;
+    }
+    }
+
+}
+
+
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  float: right;
+  padding-top: 2%;
+  padding-right: 2%;
+}
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
+
+.nav-collapse{
+  display: inline;
+}
+
+.banner{
+  background: $blue;
+  position: fixed;
+  width: 100%;
+  color: white;
+  top: 0;
+  padding: 0 2%;
+  z-index: 1000;
+
+  a{
+    color: white;
+
+    &:hover{
+      color: $yellow;
+    }
+  }
+}
+
+.brand-img{
+  height: 100px;
+
+}
+
+.nav-collapse.nav-collapse-0.closed{
+      @media #{$medium-up}{
+        display: inline;
+      width: 70%;
+      float: right;
+      text-align: right;
+      }
+    }
+
+.menu-menu-1-container{
+     
+
+      @media #{$medium-up}{
+        display: inline;
+      width: 70%;
+      float: right;
+      padding: 36px 0px;
+      }
+    }
+
+.login{
+      text-align: right;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    padding-right: 2%;
+
+    p{
+      padding-bottom: 0;
+      margin-bottom: 0;
+      color: white;
+      font-size: 14px;
+    }
+}

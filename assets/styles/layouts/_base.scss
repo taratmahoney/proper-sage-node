@@ -1,0 +1,38 @@
+.content-start{
+  margin-top: 122px;
+}
+
+.padtop{
+  padding-top: 3%;
+}
+
+.padbottom{
+  padding-bottom: 3%;
+}
+
+.footer{
+  overflow: hidden;
+
+  h4{
+    font-size: 3em;
+  }
+
+  .menu-menu-1-container{
+    float: none;
+  }
+
+  .footer-right{
+    padding-left: 0px;
+    @media #{$medium-up}{
+    padding-left: 56%;
+  }
+  }
+}
+
+.centered{
+  p{
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  }
+}
